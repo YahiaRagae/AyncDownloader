@@ -17,7 +17,7 @@ public class ConfigBuilder {
     /**
      If you whant to force reload the data set to true , defualt value false
      */
-    var isIgnoreCaching:Bool = false
+    public var isIgnoreCaching:Bool = false
     
     public typealias BuilderClosure = (ConfigBuilder) -> ()
     
