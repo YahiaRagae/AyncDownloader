@@ -33,7 +33,7 @@ import JGProgressHUD
         
     }
     
-    class var sharedInstance: AsyncDownloader {
+    public class var sharedInstance: AsyncDownloader {
         struct Static {
             static var onceToken: dispatch_once_t = 0
             static var instance: AsyncDownloader? = nil
@@ -53,7 +53,7 @@ import JGProgressHUD
             NSException(name: "AsyncDownloader", reason: "maxMemory Configuration cannot be nil", userInfo: nil).raise()
         }
     }
-    internal func fetchJsonURL(  config : RequestConfig , withCompletion completion:( reponse  : JSON  )->Void ){
+    public func fetchJsonURL(  config : RequestConfig , withCompletion completion:( reponse  : JSON  )->Void ){
         
         if let link = config.link {
             var hud:JGProgressHUD!
@@ -76,7 +76,7 @@ import JGProgressHUD
         }
     }
     
-    internal func loadFile(  config : RequestConfig , withCompletion completion:( fileData  : NSData  )->Void ){
+    public func loadFile(  config : RequestConfig , withCompletion completion:( fileData  : NSData  )->Void ){
         var hud:JGProgressHUD!
         if (config.link != nil && config.imageView != nil) {
             let task : NSURLSessionTask  = onlineController.getFile(config.link!) { (response, status) in
