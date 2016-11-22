@@ -48,7 +48,6 @@ cell.imageView.AsyncloadImage(url!)
 - Singletone { AsyncDownloader , OnlineController }
 - Builder { ConfigBuilders }
 
-
 ## Libraries Used ## 
 - [JGProgressHUD] ( https://github.com/JonasGessner/JGProgressHUD )
 - [SwiftyJSON]  ( https://github.com/SwiftyJSON/SwiftyJSON  ) 
