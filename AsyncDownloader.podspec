@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '8.0'
-s.name = "AsyncDownload"
+s.name = "AsyncDownloader"
 s.summary = "Simple Library to AsyncDownload Files and Resources."
 s.requires_arc = true
 
@@ -30,8 +30,7 @@ s.dependency 'JGProgressHUD', '1.4'
 s.dependency 'SwiftyJSON' ,'~> 2.4.0'
 
 # 8
-s.source_files = "AyncDownloader/**/*.{swift}"
+s.source_files = "AsyncDownloader/**/*"
 
-# 9
-s.resources = "AyncDownloader/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end
