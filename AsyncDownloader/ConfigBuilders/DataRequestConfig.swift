@@ -35,7 +35,7 @@ public  class RequestConfig {
     
     public typealias BuilderClosure = (RequestConfig) -> ()
     
-    init(buildClosure: BuilderClosure) {
+    public init(buildClosure: BuilderClosure) {
         buildClosure(self)
     }
 }

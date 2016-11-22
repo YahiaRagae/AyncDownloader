@@ -21,7 +21,7 @@ public class ConfigBuilder {
     
     public typealias BuilderClosure = (ConfigBuilder) -> ()
     
-    init(buildClosure: BuilderClosure) {
+    public init(buildClosure: BuilderClosure) {
         buildClosure(self)
     }
 }
