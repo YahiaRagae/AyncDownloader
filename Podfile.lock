@@ -1,0 +1,15 @@
+PODS:
+  - JGProgressHUD (1.4)
+  - SwiftyJSON (2.4.0)
+
+DEPENDENCIES:
+  - JGProgressHUD (= 1.4)
+  - SwiftyJSON (~> 2.4.0)
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  SwiftyJSON: 96918c1bf505efa50c4f72957018dd3452090c9c
+
+PODFILE CHECKSUM: 3e226068f56a3ceee7ccfd9f9ae4cadda0521e04
+
+COCOAPODS: 1.0.1
