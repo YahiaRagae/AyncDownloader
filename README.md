@@ -14,6 +14,7 @@
 
 ## Usage ##
 > use it via Pods
+
 ```
 pod 'AsyncDownloader', :git => 'https://github.com/YahiaRagae/AyncDownloader'
 ```
