@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIImageView {
     
-    func loadImage(link: String, isIgnoreCaching:Bool)  {
+    func AsyncloadImage(link: String )  {
         
         AsyncDownloader.sharedInstance.loadFile(RequestConfig{ builder in
             builder.link = link
