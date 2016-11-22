@@ -45,6 +45,3 @@ cell.imageView.AsyncloadImage(url!)
 ## Libraries Used ## 
 - [JGProgressHUD] ( https://github.com/JonasGessner/JGProgressHUD )
 - [SwiftyJSON]  ( https://github.com/SwiftyJSON/SwiftyJSON  ) 
-
-
-[ Update ] Read Me
