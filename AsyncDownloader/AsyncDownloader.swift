@@ -18,7 +18,7 @@ import JGProgressHUD
     var onlineController:OnlineController!
     
     
-    static func Configure( config :ConfigBuilder){
+    public static func Configure( config :ConfigBuilder){
         NSUserDefaults.standardUserDefaults().setBool(config.isIgnoreCaching, forKey: UD_CONFIG_IGNORE_CACHING)
         if let maxMomry  = config.maxCacheMemory  {
             NSUserDefaults.standardUserDefaults().setInteger(maxMomry, forKey: UD_CONFIG_MAX_MEMORY)

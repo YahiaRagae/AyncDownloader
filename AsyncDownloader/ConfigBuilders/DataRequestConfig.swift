@@ -33,7 +33,7 @@ public  class RequestConfig {
     public var imageView:UIImageView?
     
     
-    typealias BuilderClosure = (RequestConfig) -> ()
+    public typealias BuilderClosure = (RequestConfig) -> ()
     
     init(buildClosure: BuilderClosure) {
         buildClosure(self)

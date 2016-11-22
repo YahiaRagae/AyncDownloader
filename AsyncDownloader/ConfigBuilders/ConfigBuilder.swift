@@ -19,7 +19,7 @@ public class ConfigBuilder {
      */
     var isIgnoreCaching:Bool = false
     
-    typealias BuilderClosure = (ConfigBuilder) -> ()
+    public typealias BuilderClosure = (ConfigBuilder) -> ()
     
     init(buildClosure: BuilderClosure) {
         buildClosure(self)
