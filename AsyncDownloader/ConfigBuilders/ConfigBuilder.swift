@@ -12,7 +12,7 @@ public class ConfigBuilder {
     /**
      Max Cache Memory in MBs.
      */
-    var maxCacheMemory:Int?
+    public var maxCacheMemory:Int?
     
     /**
      If you whant to force reload the data set to true , defualt value false

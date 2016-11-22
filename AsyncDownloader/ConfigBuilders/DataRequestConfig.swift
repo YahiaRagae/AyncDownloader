@@ -12,25 +12,25 @@ public  class RequestConfig {
     /**
      Link of Download.
      */
-    var link:String?
+    public var link:String?
     /**
      Show/hide Loading View , defualt value false
      */
-    var isShowLoadingView:Bool = false
+    public var isShowLoadingView:Bool = false
     
     /**
      The view which will be the parent of the HUD
      */
-    var loadindView:UIView?
+    public var loadindView:UIView?
     /**
      Loading Message.
      */
-    var loadingMessage:String?
+    public var loadingMessage:String?
     
     /**
      ImageView to show image on
      */
-    var imageView:UIImageView?
+    public var imageView:UIImageView?
     
     
     typealias BuilderClosure = (RequestConfig) -> ()
