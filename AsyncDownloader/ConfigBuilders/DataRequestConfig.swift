@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class RequestConfig {
+public  class RequestConfig {
     /**
      Link of Download.
      */

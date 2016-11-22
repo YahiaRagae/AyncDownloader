@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ConfigBuilder {
+public class ConfigBuilder {
     /**
      Max Cache Memory in MBs.
      */
