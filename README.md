@@ -13,6 +13,12 @@
 - Nice UI and Animations 
 
 ## Usage ##
+> use it via Pods
+```
+pod 'AsyncDownloader', :git => 'https://github.com/YahiaRagae/AyncDownloader'
+```
+
+
 > Confgiure Max Cache & Ignore/Use cached Data
 
 ```swift
